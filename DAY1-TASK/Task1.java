@@ -7,18 +7,18 @@ public class Task1 {
 	public static void main(String[] args) {
 		Scanner s =new Scanner(System.in);
 		
-		System.out.println("Enter the array length:");
+		System.out.println("\n Enter the array length:");
 		int size = s.nextInt();
 		int a[]=new int[20];
-		System.out.println("Enter the array elements:");
+		System.out.println("\\n Enter the array elements:");
 		for(int i=0;i<size;i++)
 		{
 			a[i]=s.nextInt();
 		}
 		//Insert
-		System.out.println("Enter ur value");
+		System.out.println("\n Enter ur value");
 		   int newval=s.nextInt();
-		   System.out.println("Enter the position");
+		   System.out.println("\nEnter the position");
 		   int pos=s.nextInt();
 		   for(int n=size;n>=pos-1;n--)
 		   {
@@ -32,7 +32,7 @@ public class Task1 {
 		   }
 		   
 		  // Delete
-		   System.out.println("Enter the position to delete value");
+		   System.out.println("\n Enter the position to delete value");
 			int pos1=s.nextInt();
 			
 			for(int n=pos1-1;n<size;n++)
@@ -47,13 +47,14 @@ public class Task1 {
 		   
 		
 	// Update
-	System.out.println("Enter the position to update value");
+	System.out.println("\n Enter the position to update value");
 	int pos2=s.nextInt();
 	a[pos2-1]=s.nextInt();	
 	for(int i=0;i<size;i++){
 	       System.out.print(a[i]);
 	       System.out.print(" ");
 	   }
+	s.close();
 	}
 	
 }

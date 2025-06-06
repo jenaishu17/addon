@@ -49,5 +49,6 @@ Scanner s =new Scanner(System.in);
 //	       System.out.print(" ");
 //	   }
 	System.out.println(Arrays.toString(b));
+	s.close();
 	}
 	}

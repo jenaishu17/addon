@@ -1,7 +1,5 @@
 package addon_day1;
-
 import java.util.Scanner;
-
 public class PostAssignment {
 	 public static int sumDigits(int n) {
 	        if (n == 0) {
@@ -9,7 +7,6 @@ public class PostAssignment {
 	        }
 	        return (n % 10) + sumDigits(n / 10);
 	    }
-
 	    public static void main(String[] args) {
 	        Scanner sc = new Scanner(System.in);
 	        System.out.print("Enter a Number: ");

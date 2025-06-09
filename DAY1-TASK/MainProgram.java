@@ -1,5 +1,6 @@
 package addon_day1;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MainProgram {
@@ -44,7 +45,7 @@ public class MainProgram {
 	                System.out.println("Invalid choice. Try again.");
 	        }
 
-	        // Recursive call
+	    
 	        menu(sc);
 	    }
 
@@ -57,7 +58,8 @@ public class MainProgram {
 	        System.out.print("Enter element to insert: ");
 	        int element = sc.nextInt();
 	        array[size++] = element;
-	        System.out.println("Element inserted.");
+	        System.out.println("Element inserted.\n");
+	        System.out.println(Arrays.toString(array));
 	    }
 
 	    public static void deleteElement(Scanner sc) {
@@ -76,17 +78,20 @@ public class MainProgram {
 	                break;
 	            }
 	        }
+	       
 
 	        if (index == -1) {
 	            System.out.println("Element not found.");
 	            return;
 	        }
 
-	        for (int i = index; i < size - 1; i++) {
+	        for (int i = index; i < size ; i++) {
 	            array[i] = array[i + 1];
 	        }
 	        size--;
+	        
 	        System.out.println("Element deleted.");
+	        System.out.println(Arrays.toString(array));
 	    }
 
 	    public static void displayArray() {

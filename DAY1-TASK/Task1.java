@@ -1,12 +1,8 @@
 package addon_day1;
-
-
 import java.util.Scanner;
-
 public class Task1 {
 	public static void main(String[] args) {
 		Scanner s =new Scanner(System.in);
-		
 		System.out.println("\n Enter the array length:");
 		int size = s.nextInt();
 		int a[]=new int[20];
@@ -30,7 +26,6 @@ public class Task1 {
 		       System.out.print(a[i]);
 		       System.out.print(" ");
 		   }
-		   
 		  // Delete
 		   System.out.println("\n Enter the position to delete value");
 			int pos1=s.nextInt();
@@ -43,9 +38,7 @@ public class Task1 {
 			for(int i=0;i<size;i++){
 			       System.out.print(a[i]);
 			       System.out.print(" ");
-			   }
-		   
-		
+			   }	
 	// Update
 	System.out.println("\n Enter the position to update value");
 	int pos2=s.nextInt();

@@ -23,5 +23,6 @@ public class MainProgram {
         String str = s.next();
         System.out.println("\nPALINDROME CHECKING");
         System.out.println("Is Palindrome? " + isPalindrome(str));
+        s.close();
     }
 }

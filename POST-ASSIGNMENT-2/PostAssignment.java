@@ -33,5 +33,6 @@ public class PostAssignment {
         if (!found) {
             System.out.println("TARGET NOT FOUND");
         }
+    s.close();
     }
 }

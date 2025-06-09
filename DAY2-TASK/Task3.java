@@ -47,5 +47,6 @@ Arrays.sort(a);
             System.out.print(temp[i] + " ");
         }
         System.out.println();
+        s.close();
     }
 }

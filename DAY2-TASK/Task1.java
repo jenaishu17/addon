@@ -1,7 +1,5 @@
 package addon_day2;
-
 import java.util.Arrays;
-
 public class Task1 {
 	public static void main(String[] args) {
 		int[] a= {4,2,10,7,5,3,8};
@@ -16,8 +14,6 @@ public class Task1 {
 			start++;
 			end--;
 		}
-		System.out.println(Arrays.toString(a));
-		
+		System.out.println(Arrays.toString(a));	
 	}
-
 }

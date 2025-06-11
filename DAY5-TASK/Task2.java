@@ -26,18 +26,22 @@ public class Task2 {
 	          last.next = newNode;
 	      }
 	}
-	public void display() {
-		
-		Node temp = last.next;
-	    do {
-	        System.out.print(temp.data + "->");
-	        temp = temp.next;
-	        if(temp==last.next) {
-	        	System.out.print("null");
+	 public void display() {
+	        if (last == null) {
+	            System.out.println("List is empty.");
+	            return;
 	        }
-	    } while (temp != last.next);
 
-	 }
+	        Node temp = last.next;
+	        while (true) {
+	            System.out.print(temp.data + "->");
+	            temp = temp.next;
+	            if (temp == last.next) {
+	                break;
+	            }
+	        }
+	        System.out.println(last.next.data);
+	    }
 
 	public static void main(String[] args) {
 		Task2 c=new Task2();

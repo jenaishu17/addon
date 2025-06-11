@@ -26,18 +26,21 @@ public class MainProgram {
 		      }
 		}
 		public void display() {
-			
-			Node temp = last.next;
-		    do {
-		        System.out.print(temp.data + "->");
-		        temp = temp.next;
-		        if(temp==last.next) {
-		        	System.out.print("null\n");
+		        if (last == null) {
+		            System.out.println("List is empty.");
+		            return;
 		        }
-		    } while (temp != last.next);
 
-		 }
-
+		        Node temp = last.next;
+		        while (true) {
+		            System.out.print(temp.data + "->");
+		            temp = temp.next;
+		            if (temp == last.next) {
+		                break;
+		            }
+		        }
+		        System.out.println(last.next.data);
+		    }
 		public void delete() {
 			  if (last == null) {
 		            System.out.println("List is empty, cannot delete!");

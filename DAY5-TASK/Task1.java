@@ -1,5 +1,6 @@
 package addon_day5;
 
+
 public class Task1 {
 Node last;
 
@@ -25,17 +26,21 @@ public void insert(int val) {
       }
 }
 public void display() {
-	
-	Node temp = last.next;
-    do {
+    if (last == null) {
+        System.out.println("List is empty.");
+        return;
+    }
+
+    Node temp = last.next;
+    while (true) {
         System.out.print(temp.data + "->");
         temp = temp.next;
-        if(temp==last.next) {
-        	System.out.print("null");
+        if (temp == last.next) {
+            break;
         }
-    } while (temp != last.next);
-
- }
+    }
+    System.out.println(last.next.data);
+}
 
 public static void main(String[] args) {
 	Task1 c=new Task1();

@@ -18,7 +18,7 @@ public class Task1 {
 	 public void pop() {
 	        if (top >= 0)
 	        { 
-	            System.out.println("Popped: " + mystack[top--]); 
+	            System.out.println("\nPopped: " + mystack[top--]); 
 	        } 
 	        else
 	        {
@@ -31,7 +31,7 @@ public class Task1 {
             System.out.println("Stack Elements:");
             for (int i = top; i >= 0; i--)
             { 
-                System.out.println(mystack[i] + " ");
+                System.out.print(mystack[i] + " ");
             }
         } 
         else {

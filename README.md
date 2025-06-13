@@ -48,4 +48,12 @@ Task2:  Use menu based stack operations,
 Task3:  Create a Queue with enqueue and deque operations,    
 Main Program:  Use front and rear pointers for queue operations,    
 Post Assignment: Implement a Singly Linked List in Stack Data Structures.    
-]      
+]   
+DAY7:  Sorting        
+[  
+Task1:  Implement Bubble sort in an array,    
+Task2:  Implement Quick sort in an array,    
+Task3:  Implement Insertion sort in an array,    
+Main Program:  Implement Selection sort in an array,    
+Post Assignment: Implement Merge sort in an array.    
+]   

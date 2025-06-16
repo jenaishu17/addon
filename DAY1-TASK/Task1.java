@@ -6,7 +6,7 @@ public class Task1 {
 		System.out.println("\n Enter the array length:");
 		int size = s.nextInt();
 		int a[]=new int[20];
-		System.out.println("\\n Enter the array elements:");
+		System.out.println("\n Enter the array elements:");
 		for(int i=0;i<size;i++)
 		{
 			a[i]=s.nextInt();

@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task1 {
+	// Lower Bound
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		int a[]= {4,2,35,5,3,12,77,24};
@@ -27,8 +28,6 @@ public class Task1 {
 			System.out.println("Low Bound found at "+left+" and value "+a[left]);
 		}
 		s.close();
-		
-		
 	}
 
 }

@@ -56,4 +56,21 @@ Task2:  Implement Quick sort in an array,
 Task3:  Implement Insertion sort in an array,    
 Main Program:  Implement Selection sort in an array,    
 Post Assignment: Implement Merge sort in an array.    
-]   
+]  
+DAY8:  Searching        
+[  
+Task1:  Linear search on unsorted array,    
+Task2:  Binary search recursive,    
+Task3:  Search in a rotated sorted array,    
+Main Program:  Search with input type detection,    
+Post Assignment: Frequency count using binary search.    
+]  
+DAY9:  Lower Bound and Upper Bound        
+[  
+Task1:  Find the lower bound in a sorted array,    
+Task2:  Find the upper bound,    
+Task3:  Count of target in sorted array,    
+Main Program:  Rank Finder(Find the rank of an element),    
+Post Assignment: Problem set from Leetcode/codeforces on bounds.    
+]  
+

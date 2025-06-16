@@ -52,7 +52,6 @@ public class PostAssignment {
         int[] arr = {2, 3, 3, 3, 4, 4, 5, 6, 6, 6, 6, 7};
         int target = 6;
 
-        // Make sure array is sorted before binary searching
         Arrays.sort(arr);
 
         int freq = frequencyCount(arr, target);

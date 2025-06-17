@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class Task2 {
 // Upper Bound
 
-
-		// Lower Bound
 		public static void main(String[] args) {
 			Scanner s=new Scanner(System.in);
 			int a[]= {4,2,35,5,3,12,77,24};
@@ -27,9 +25,13 @@ public class Task2 {
 					right=mid;
 				}
 			}
-			if(left==right) {
+			if(left<a.length) {
 				System.out.println("\nUpper Bound found at "+left+" and value "+a[left]);
 			}
+			else {
+				System.out.println("\nupper bound not found");
+			}
+			
 			s.close();
 		}
 

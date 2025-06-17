@@ -8,13 +8,14 @@ public class Task1 {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		int a[]= {4,2,35,5,3,12,77,24};
+		Arrays.sort(a);
+		System.out.println(Arrays.toString(a));
 		System.out.println("Enter a Target: ");
 		int target=s.nextInt();
 		int left=0;
 		int right=a.length;
 		int mid;
-		Arrays.sort(a);
-		System.out.println(Arrays.toString(a));
+		
 		while(left<right) {
 			mid=(left+right)/2;
 			if(a[mid]<target) {
@@ -24,8 +25,17 @@ public class Task1 {
 				right=mid;
 			}
 		}
-		if(left==right) {
-			System.out.println("Low Bound found at "+left+" and value "+a[left]);
+		try {
+			
+		
+		if(((a[left])|(a[right]))>=target) {
+			System.out.println("\nLow Bound found at "+left+" and value "+a[left]);
+		}
+		else if (target>(a[left]|a[right])) {
+			System.out.println("\nOut of Bounds");
+		}}
+		catch(Exception e) {
+			System.out.println("Out of bounds, no low bounds....");
 		}
 		s.close();
 	}

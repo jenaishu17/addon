@@ -71,6 +71,15 @@ Task1:  Find the lower bound in a sorted array,
 Task2:  Find the upper bound,    
 Task3:  Count of target in sorted array,    
 Main Program:  Rank Finder(Find the rank of an element),    
-Post Assignment: Problem set from Leetcode/codeforces on bounds.    
+Post Assignment: Problem set from Leetcode/codeforces on bounds{2448:Count Subarrays With Fixed Bounds).    
 ]  
+DAY10:  MySQL      
+[  
+Task1:  Create a table and enter name,marks,department,section of 5 students,    
+Task2:  Update a Single Student name,display marks <60,display student name,dept with section alone,    
+Task3:  Count of target in sorted array,    
+Main Program:  Rank Finder(Find the rank of an element),    
+Post Assignment: Problem set from Leetcode/codeforces on bounds{2448:Count Subarrays With Fixed Bounds).    
+]  
+
 

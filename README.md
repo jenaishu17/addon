@@ -71,6 +71,21 @@ Task1:  Find the lower bound in a sorted array,
 Task2:  Find the upper bound,    
 Task3:  Count of target in sorted array,    
 Main Program:  Rank Finder(Find the rank of an element),    
-Post Assignment: Problem set from Leetcode/codeforces on bounds.    
+Post Assignment: Problem set from Leetcode/codeforces on bounds{2444:Count Subarrays With Fixed Bounds).    
 ]  
+DAY10:  MySQL      
+[  
+Task1:  Create a table and enter name,marks,department,section of 5 students,    
+Task2:  Update a Single Student name,display marks <60,display student name,dept with section alone,    
+Task3:  Add an extra column which contains gender,drop column section,Truncate table,drop the database,    
+]  
+DAY11:  JDBC      
+[  
+Task1:  Create a table in MySQL using jdbc,    
+Task2:  Insert the data in a table using jdbc,    
+Task3:  Delete a data from a table using jdbc,    
+Main Program:  Retrive all the data from the table,    
+Post Assignment:  Combine all task and keep in a method inventory,so far we can use anytime,    
+]  
+
 
